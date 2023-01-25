@@ -20,16 +20,16 @@ namespace App2
         {
             InitializeComponent();
 
-            /*var urlSource = new UrlWebViewSource();
+            var urlSource = new UrlWebViewSource();
 
             string baseUrl = DependencyService.Get<IBaseUrl>().Get();
             string filePathUrl = Path.Combine(baseUrl, "index.html");
             urlSource.Url = filePathUrl;
-            webView.Source = urlSource;*/
+            webView.Source = urlSource;
         }
-        private void _button_Clicked(object sender, EventArgs e)
+        /*private void _button_Clicked(object sender, EventArgs e)
         {
-            webView.Source = "https://www.trovadating.com/Webview/GoLive.aspx?user_id=10383";
-        }
+            webView.Source = "https://xamarin.swappsdev.net/";
+        }*/
     }
 }
